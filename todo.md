@@ -1,0 +1,183 @@
+# Project TODO
+
+- [x] ပေးထားသော `golden-thai-lottery-code(3).zip` archive ကို လုံခြုံစွာစစ်ဆေးပြီး Vite client/server project structure ကိုသတ်မှတ်ရန်
+- [ ] Archive တွင် Android wrapper/package configuration မပါရှိသဖြင့် PWA identity `golden-thai-lottery` ကိုထိန်းသိမ်းပြီး `com.goldenthai.lottery` Play package ကို မပြောင်းကြောင်း သီးခြားအတည်ပြုရန်
+- [x] Dependency install error များကို ပြန်လည်ဖော်ထုတ်ပြီး pnpm 10 patch configuration ကိုပြင်ဆင်ရန်
+- [x] TypeScript နှင့် production build error များကို ပြန်လည်ဖော်ထုတ်ရန်
+- [x] Runtime/startup error များကို log နှင့် browser console မှတစ်ဆင့် စစ်ဆေးရန်
+- [x] VAPID environment secrets မရှိသည့်အခါ မမှန်ကန်စွာ fail နေသော tests ကို isolated generated keys ဖြင့်ပြင်ဆင်ရန်
+- [x] Vite 7 နှင့် peer-version မကိုက်သော nonessential JSX location plugin ကိုဖယ်ရှားရန်
+- [x] Lottery နှင့် Myanmar 2D API 500 ဖြစ်စေသော missing database tables ကို source migrations ဖြင့်ပြင်ဆင်ရန်
+- [x] အတည်ပြုထားသော error တစ်ခုချင်းကို မူလ feature behavior မပြောင်းဘဲ ပြင်ဆင်ရန်
+- [x] Unit tests နှင့် deterministic HTTP checks ဖြင့် ပြင်ဆင်ချက်များကို အတည်ပြုရန်
+- [x] Final TypeScript check၊ 38 tests၊ production build နှင့် core API smoke test အားလုံးကို ပြန်လည် run ရန်
+- [x] ပြင်ဆင်ပြီး project checkpoint ကို သိမ်းဆည်းပြီး စမ်းသပ်ရန်ပေးရန်
+- [x] Myanmar 2D header၊ result card နှင့် schedule table မှ အလုပ်မလုပ်တော့သော SET/VAL/market status ဂဏန်းများကို ဖယ်ရှားရန်
+- [x] Myanmar 2D page တွင် 12:01 PM နှင့် 4:30 PM verified 2D result များသာပြပြီး pending တွင် `--` ပြရန်
+- [x] Header chat icon ဘေးတွင် မြင်သာသော “Chat” label ထည့်သွင်းရန်
+- [x] Myanmar 2D page ကို reference screenshot ၏ black-and-gold result-board layout ဖြင့် လက်ရှိပုံစံအစားထိုးရန်
+- [x] Reference တွင်ပါသော SET/VALUE market numbers ကိုပြန်ပြမပြရန် user preference ကိုအတည်ပြုပြီး layout ကိုညှိရန် — နောက်ဆုံးညွှန်ကြားချက်အရ မပြရန်
+- [x] Myanmar 2D အော်တိုဆွဲ/sync ကို Monday–Friday တွင်သာ run စေပြီး စနေ၊တနင်္ဂနွေတွင် ပိတ်ရက်အဖြစ် skip စေရန်
+- [x] Myanmar 2D page အောက်ခြေ discussion chat၊ message input နှင့် chat history section ကို လုံးဝဖယ်ရှားပြီး header Chat တစ်ခုတည်းထားရန်
+- [x] Myanmar 2D feature ပြီးဆုံးသည့်အဆင့်တိုင်းတွင် checkpoint ပြပြီး user အတည်ပြုချက်ရမှ publish card ဖြင့်စမ်းသပ်ရန်ပေးရန်
+- [x] User ပေးထားသော crown 2D logo ကို Golden Thai PWA icon၊ favicon နှင့် manifest branding အဖြစ် အသုံးပြုရန်
+- [x] Public deployment တွင် cached 2D assets ကြောင့် အောက်ခြေ discussion chat အဟောင်းပြန်ပေါ်နေခြင်းကို cache-version update ဖြင့်ပြင်ဆင်ရန်
+- [x] Project card တွင် globe placeholder အစား user ပေးထားသော crown 2D logo ပြသရန်
+- [x] Golden Thai PWA manifest icon နှင့် phone home-screen icon တွင် crown 2D logo ပြသရန်
+- [x] User ဖုန်းမှ latest checkpoint card ကိုဖွင့်ကာ ကိုယ်တိုင် Publish နှိပ်နိုင်ရန် အဆင့်များပေးရန်
+- [x] Black-and-gold Myanmar 2D result board တွင် 12:01 PM နှင့် 4:30 PM verified 2D results ကိုသာပြရန်
+- [x] Black-and-gold Myanmar 2D header/result board/schedule မှ SET/VAL market status နှင့် live stock numbers အားလုံးဖယ်ရှားရန်
+- [x] Public version တွင် မပေါ်တော့သော ရှိပြီးသား Thai Lottery number data ကို root cause စစ်ဆေးပြီး ပြန်လည်ပြသရန်
+- [x] New UI changes မလုပ်မီ Thai Lottery data နှင့် မူလ core functionality များကို stable baseline အဖြစ် ပြန်လည်စစ်ဆေးအတည်ပြုရန်
+- [ ] Thai Lottery numbers ပျောက်နေသည့် baseline ကိုပြန်လည်တည်ဆောက်ပြီး 16-09-2026 draw result အော်တိုရလဒ်ယူမှုကို configure လုပ်ရန်
+- [x] Myanmar 2D page ကို user ပေးထားသော black-and-gold reference layout ဖြင့် လက်ရှိပုံစံအစားထိုးရန်
+- [x] Superseded — Myanmar 2D page တွင် SET/VALUE session rows နှင့် Modern/Internet summary table ကို reference အတိုင်း ပြန်ထည့်ရန် မလုပ်တော့ရန်
+- [x] Myanmar 2D page တွင် Hot numbers နှင့် current-week 3D summary ကို verified/pending data အလိုက်ပြသရန်
+- [x] Black-and-gold 2D design တွင် SET/VALUE၊ Modern/Internet နှင့် market-status numbers အားလုံးမပြဘဲ verified 2D results၊ Hot numbers နှင့် 3D summary ကိုသာထားရန်
+- [x] Myanmar 2D screen ရှိ အဟောင်း 2D/3D result values နှင့် market-status numbers အားလုံးကိုဖယ်ရှားရန်
+- [x] မနက်ဖြန်အော်တိုဆွဲရလဒ်မရောက်မီ 2D/3D/Hot summary တွင် pending `--` သာပြရန်
+- [x] Myanmar 2D Monday–Friday auto-sync နှင့် weekend skip rule ကို သီးခြား next feature အဖြစ် တည်ဆောက်စမ်းသပ်ရန်
+- [x] Myanmar 2D အဟောင်းဂဏန်းများ ပေါ်လာသည့် source ကိုစစ်ဆေးပြီး 12:01/16:30 draw session တိုင်း official result သာအော်တိုယူရန်
+- [x] Myanmar 2D အောက်ခြေတွင် date နှင့် weekday ပါသော morning/evening result history ကို black-and-gold style ဖြင့်ပြရန်
+- [x] Myanmar 2D morning/evening result history ကို 60 ရက်ပြည့်မှသာ အလိုအလျောက်ရှင်းလင်းရန်
+- [x] Myanmar 2D result board၊ schedule၊ Hot၊ weekly summary နှင့် history ကို phone screen space မကြီးအောင် compact size ဖြင့်ပြင်ရန်
+- [x] Myanmar 2D အရေးကြီး result/schedule/Hot/weekly summary ကို compact reference အရွယ်အထိလျှော့ပြီး အပေါ်သို့ပြန်ဆွဲကြည့်ရမှုလျှော့ရန်
+- [x] Myanmar 2D 12:01 နှင့် 4:30 result card တွင် verified SET/VAL stock-market figures ကို compact format ဖြင့်ပြန်ပြရန်
+- [x] 2D result နှင့် SET/VAL values ကို Monday–Friday session တိုင်း အတူတကွ auto-sync လုပ်ပြီး missing/unverified data ကို `--` သာပြရန်
+- [x] မြန်မာစံတော်ချိန် ည 12:00 မှစ၍ SET/VAL stock figures များကိုဖျောက်ပြီး နောက်နေ့ market data အသစ်ရောက်မှသာပြန်ပေါ်ရန်
+- [x] Myanmar 2D primary dashboard ကို phone ဖွင့်လိုက်လျှင် scroll မလိုဘဲ result၊ two SET/VAL session rows၊ Hot နှင့် weekly 3D summary အကုန်မြင်ရအောင် compact fixed-height layout လုပ်ရန်
+- [x] Thai Lottery official draw ထွက်တိုင်း Myanmar 2D dashboard ရှိ 3D panel ကို verified 3-digit value ဖြင့် အလိုအလျောက်ပြောင်းပြရန်
+- [x] Myanmar 2D details section တွင် verified history ကိုသာအသုံးပြုသော AI morning/evening ခန့်မှန်းချက်ကို compact control ဖြင့်ပြရန်
+- [x] Myanmar 2D prediction UI တွင် “AI” စာသားမသုံးဘဲ “ခန့်မှန်းဂဏန်း ကြည့်ရန်” ဟူသော label ဖြင့်ပြရန်
+- [x] Myanmar 2D header ရှိ Chat icon နှင့် Chat စာသားကို subtle shake animation ဖြင့်သတိပြုမိစေရန်ပြရန်
+- [x] Home yellow 2D summary card ၏ဝိုင်းပြထားသောနေရာတွင် morning/evening SET/VAL market values နှင့် 2D results ကို compact format ဖြင့်ပြရန်
+- [x] Home yellow 2D summary card ရှိ အဓိက 2D number ကို နည်းငယ်ပိုကြီးပြီးဖတ်လွယ်အောင်ပြရန်
+- [x] Home yellow 2D card ရှိ မနက်/ညနေ label နှင့် 2D value ကို ပိုကြီးပြီးဖတ်လွယ်အောင်ပြရန်
+- [x] Morning/evening official 2D result ရောက်သည်နှင့် Home card နှင့် 60-day history တွင် reload မလိုဘဲအလိုအလျောက်ပြောင်းပြရန်
+- [x] Home yellow 2D summary card တွင် မနက်နှင့်ညနေ 2D numbers ကို အရောင်ကွဲပြားစွာပြသရန်
+- [x] Myanmar 2D internal result board တွင် မနက်/ညနေ SET နှင့် VAL market values ကို green အရောင်ဖြင့်ပြရန်
+- [x] Superseded — Myanmar 2D internal board အပေါ်ဆုံး center box ကို prediction/result area အဖြစ်မထားတော့ဘဲ user ရှင်းပြချက်အရ live-changing 2D display အဖြစ်ပြောင်းရန်
+- [x] Myanmar 2D history မတိုင်မီ “ခန့်မှန်းဂဏန်း ကြည့်ရန်” control ထည့်ပြီးနှိပ်လျှင် verified history-based hot/cold numbers ကိုပြရန်
+- [x] Superseded — Myanmar 2D internal center area တွင် “မနက် -- / ညနေ --” two-line display မထားတော့ဘဲ user အတည်ပြုချက်အရ live-changing 2D တစ်လုံးတည်းပြရန်
+- [x] Myanmar 2D internal center area တွင် market hours အတွင်း current-day live 2D two-digit value ကိုအလိုအလျောက်ပြပြီး market closed/ည 12 နာရီ/ပိတ်ရက်တွင် `--` ပြရန်
+- [x] Myanmar 2D center area ၏အပေါ်ဆုံးတွင် reference အတိုင်း current-day live 2D နှစ်လုံးကို market data ပြောင်းသလို real-time ပြောင်းပြရန်
+- [x] Myanmar 2D center area ၏အပေါ်ဆုံးတွင် current-day live 2D နှစ်လုံးကို market data ပြောင်းသလို real-time ပြောင်းပြရန်
+- [x] Golden Thai Home အပေါ်ဘက်လွတ်နေရာတွင် existing 2D conversation screen သို့ဖွင့်ပေးသော compact Chat entry box ထည့်ရန်
+- [x] Myanmar 2D Chat overlay အပေါ်တွင် SET/VAL stock values နှင့် live-changing `2D --` status strip ထည့်ရန်
+- [x] Myanmar 2D Chat overlay တွင် admin name မပြဘဲ generic sender label ဖြင့် privacy-preserving format သို့ပြောင်းရန်
+- [x] Myanmar 2D current-week panel အောက်၊ 60-day history အပေါ်တွင် “ခန့်မှန်းဂဏန်း ကြည့်ရန်” button ထည့်ပြီးနှိပ်လျှင် hot/cold numbers ပေါ်ရန်
+- [x] Superseded — Home yellow 2D card အတွက် top result header ထည့်ရန်မလိုတော့ဘဲ user အတည်ပြုချက်အရ internal 2D live-center နှင့် Chat overlay market strip ကိုအသုံးပြုရန်
+- [x] Home yellow 2D market rows တွင် မနက်/ညနေ label ၏ဘေး၌ session 2D result `--`/two-digit slot ကိုထင်ရှားစွာပြရန်
+- [x] Home yellow 2D card ကို hand-drawn layout အတိုင်း left မနက်/ညနေ result၊ middle SET/VAL၊ right `2D --` live display columns ဖြင့်ပြရန်
+- [x] Myanmar 2D center live 2D two-digit value ကို market data ပြောင်းတိုင်း 15 စက္ကန့်အတွင်းအလိုအလျောက်ပြောင်းပြီး market close တွင် `--` ပြရန်
+- [x] Home နှင့် Myanmar 2D တွင် active morning/evening market session ၏ SET/VAL data သာပြပြီး inactive session ကို `--` ထားရန်
+- [x] Lucky Number 2D ကို market ဖွင့်ရက်များ၌ မနက် 10:30 နှင့် ညနေ 3:30 တွင်သာ auto-update လုပ်ရန်
+- [x] Lucky Number 3D ကို လစဉ် 5၊ 15၊ 20 နှင့် လကုန်နေ့တွင်သာ auto-update လုပ်ရန်
+- [x] Lucky Number 3D value ကို update day မရောက်မချင်းမပြောင်းဘဲထားပြီး 2D ပိတ်ရက်တွင် 3D ကိုသာပြရန်
+- [ ] Lucky Number 2D/3D update အသစ်ရောက်ချိန်တွင် Golden Thai crown-and-2D icon ပါသော phone notification ကိုအလိုအလျောက်ပို့ရန်
+- [x] Lucky Number 2D/3D schedule နှင့် display ကို VAPID/push notification မလိုဘဲ app အတွင်းသာလုပ်ရန်
+- [x] Lucky 3D value ကို 2D ပိတ်ရက်နှင့် မနက် 10:30 မရောက်မီတွင်မဖျောက်ဘဲ ဆက်ပြရန်
+- [x] Lucky Number 2D/3D schedule နှင့် display ကို VAPID/push notification မလိုဘဲ app အတွင်းသာလုပ်ရန်
+- [x] Official Myanmar 2D result ထွက်လျှင် “မနက်ခင်း 2D ထွက်ပါပြီ — NN” / “ညနေခင်း 2D ထွက်ပါပြီ — NN” session-specific notification ကို crown-and-2D icon ဖြင့်ပို့ရန်
+- [ ] Golden Thai Home တွင် user tap ဖြင့် browser notification `Allow` prompt ဖွင့်ပြီး push subscription စတင်နိုင်သော control ထည့်ရန်
+- [x] VAPID keys မရှိသေးချိန် Golden Thai Home မှ notification permission control ကိုဖယ်ရှားရန်
+- [x] Lucky Number ကိုကြည့်ပြီးချိန်တွင် Home “ဂဏန်းအသစ်” badge ပျောက်ပြီး next 2D/3D scheduled period တွင်သာပြန်ပေါ်ရန်
+- [x] Myanmar 2D active market session တွင် SET/VAL stock-market values မဆွဲရသည့် source/transform bug ကိုစစ်ဆေးပြင်ရန်
+- [x] Same-day provider 12:01/16:30 verified session result ကို Home နှင့် Myanmar 2D board တွင်ပြသပြီး scheduler ကို provider time နောက်တွင်မှ sync လုပ်စေရန်ပြင်ရန်
+- [x] Provider မှပြသနေသော same-day official 2D result ကို 60-day history တွင် date/day ဖြင့်ပြန်လည်သိမ်းဆည်းပြသရန်
+- [x] ညနေ market session စတင်ပြီးနောက် Home နှင့် Myanmar 2D တွင် live SET/VAL ကိုအော်တိုပြသရန်
+- [x] 2D အချိန်ဇယားတွင် မနက်/ညနေ session အလိုက် SET/VAL values ကို current/verified data ဖြင့်ပြသရန်
+- [x] 2D အချိန်ဇယား၏ active session row တွင် live-changing 2D value ကို SET/VAL နှင့်တစ်ပြိုင်နက်ပြသရန်
+- [x] 2D အချိန်ဇယားကို reference အတိုင်း Time၊ SET၊ VAL သုံးကော်လံသာထားပြီး active session တွင် SET/VAL values ကိုပြသရန်
+- [x] Home yellow 2D card ၏ဝိုင်းပြထားသော SET/VAL market column ကိုပိုကျယ်အောင်နှင့် numbers ကိုပိုကြီးဖတ်လွယ်အောင်ပြင်ရန်
+- [x] Myanmar 2D current-week panel တွင် နေ့စဉ် morning/evening 2D result slots နှစ်ခုကိုအမြဲပြသရန်
+- [x] Myanmar 2D Hot (12:01/4:30) cards တွင် official ထွက်ဂဏန်းမဟုတ်ဘဲ မနက်/ညနေဟောဂဏန်းများကိုသာပြသရန်
+- [x] 2D အချိန်ဇယားတွင် 12:01 morning verified SET/VAL နှင့် 4:30 active/live evening SET/VAL ကိုတစ်ရက်တည်းတွင်နှစ်ကြောင်းလုံးပြသရန်
+- [x] Home yellow 2D card တွင် မနက်နှင့်ညနေ result/SET/VAL rows ကြား horizontal divider ထည့်ပြီးဂဏန်းများမရောအောင်ပြသရန်
+- [x] Home yellow 2D card တွင် မနက် SET/VAL ကိုအပြာ၊ ညနေ SET/VAL ကိုအနီရောင်ဖြင့်ခွဲပြရန်
+- [x] Myanmar 2D မနက်/ညနေ ဟောဂဏန်းသုံးလုံးစီကို daily AI-based market/history analysis ဖြင့်အော်တို update လုပ်ရန် source နှင့် scheduling system တည်ဆောက်ရန်
+- [x] Lucky Box ကံထူးဆုလက်ဆောင် feature ၏လက်ရှိ winner flow၊ ဆုရသူပြသမှုနှင့် user-requested improvement များကိုသီးခြားစစ်ဆေးပြီးပြင်ဆင်ရန်
+- [x] Lucky Box Coins ပေါက်သည့်အခါ winner popup ကို reference အတိုင်း gold claim screen၊ Coins ပမာဏ၊ ဆု ID Copy နှင့် Telegram contact အဓိကထားသောရိုးရှင်းသည့်ပုံစံသို့ပြောင်းရန်
+- [x] Owner-admin တစ်ဦးတည်းအသုံးပြုနိုင်သော Lucky Box management panel ကိုထည့်သွင်းရန်
+- [x] Lucky Box Coins prize tiers ကို admin panel မှတိုး/လျှော့/ပြင်နိုင်ရန်
+- [x] Lucky Box winner probability percentage ကို admin panel မှ 0–100% အတွင်းပြောင်းနိုင်ရန်
+- [x] Lucky Box ကံစမ်းမဲကို admin panel မှဖွင့်/ပိတ်နိုင်ရန်
+- [x] Lucky Box winner rows တွင် eye control ဖြင့် prize Coins နှင့် full reference ID ကိုဖွင့်ကြည့်နိုင်ရန်
+- [x] Lucky Box winner record ကိုတစ်ဦးချင်းဖျက်နိုင်ရန်နှင့် owner-admin မှအတည်ပြုပြီးအားလုံးဖျက်နိုင်ရန်
+- [x] Lucky Box တွင်လက်ကျန် testing bypass ကိုဖယ်ရှားပြီး owner-admin သတ်မှတ်သော win percentage အတိုင်းသာအမှန်တကယ်ပေါက်စေရန်
+- [x] Lucky Box admin queries/mutations အားလုံးကို sole owner-admin account သာအသုံးပြုနိုင်အောင်server-side permission ခိုင်မာစေရန်
+- [x] Lucky Box Coins tier တစ်ခုချင်းစီအတွက် admin ကစိတ်ကြိုက်ပေါက်နိုင်ချေ % သတ်မှတ်နိုင်ရန်
+- [x] ကြော်ငြာဝင်ငွေနှင့် admin သတ်မှတ်သည့် prize allocation % ပေါ်မူတည်သော လစဉ် Coins budget ကိုသတ်မှတ်နိုင်ရန်
+- [x] လစဉ်ပေါက်ပြီးသား Coins စုစုပေါင်းသည် budget ကိုမကျော်စေရန် Lucky Box draw server logic တွင် enforce လုပ်ရန်
+- [x] Owner-admin panel တွင် tier %၊ monthly Coins budget၊ ပေါက်ပြီး/ကျန် Coins summary ကိုဖတ်လွယ်စွာပြရန်
+- [x] Lucky Box နှင့် admin UI မှ `ကံစမ်းမဲ` စာသားကိုဖယ်ရှားပြီး `Lucky Box` သို့မဟုတ် `Coins လက်ဆောင်` wording ဖြင့်ပြောင်းရန်
+- [x] Superseded — VAPID phone push ဖြင့် subscribed users များသို့ broadcast notification ပို့ရန်မလုပ်တော့ရန်
+- [x] Superseded — Broadcast notification တွင် VAPID/subscriber delivery result ပြရန်မလုပ်တော့ရန်
+- [x] Sole owner-admin က title နှင့် message ကိုစိတ်ကြိုက်ရေး၍ app ဖွင့်ထားသော users များအတွက် one-time in-app broadcast အဖြစ်ပြသနိုင်ရန်
+- [x] In-app broadcast ကို user တစ်ဦးချင်းတစ်ကြိမ်သာမြင်စေပြီး close လုပ်ပြီးနောက် ထပ်မပေါ်စေရန်
+- [x] Lucky Box admin monthly budget မှ ကြော်ငြာဝင်ငွေ/ခွဲဝေ% fields ကိုဖယ်ရှားပြီး admin က total Coins budget တစ်လုံးတည်းသတ်မှတ်နိုင်ရန်
+- [x] Lucky Box တွင် 9:00၊ 1:00၊ 4:00၊ 8:00 ဆုဖွင့်ချိန်အထိ next opening countdown ပြသရန်
+- [x] Lucky Box ကို opening slot ရောက်မှသာဖွင့်စေပြီး user တစ်ဦးဖွင့်ပြီးလျှင် next slot မရောက်မချင်းထပ်မဖွင့်နိုင်အောင်server-side ပိတ်ရန်
+- [x] Lucky Box opening slots ကို Myanmar time 10:00၊ 1:00၊ 4:00 နှင့် 8:30 ဟုတိတိကျကျသတ်မှတ်ရန်
+- [x] Home Lucky Box အနီရောင် `ဆုလက်ဆောင်` badge ကိုဖွင့်ခွင့်ရှိသည့် slot တွင်သာပြပြီးဖွင့်ပြီးနောက် next slot မရောက်မချင်းဖျောက်ထားရန်
+- [x] Home နှင့် Myanmar 2D တွင် same-day SET/VAL market values ကိုမြန်မာစံတော်ချိန်ည 12:00 မတိုင်မီဆက်ပြပြီးနေ့သစ်မှသာအော်တိုရှင်းလင်းရန်
+- [ ] 2D official result အတွက် မနက်နှင့်ညနေတစ်ကြိမ်စီ automatic user notification ပို့ရန်
+- [ ] Lucky Number update အတွက် မနက် 10:30 နှင့်ညနေ 3:30 automatic user notification ပို့ရန်
+- [ ] Lucky Box slot ဖွင့်ချိန် 10:00၊ 1:00၊ 4:00 နှင့် 8:30 တို့တွင် automatic user notification ပို့ရန်
+- [ ] Owner-admin က custom notification title/message ရေး၍ users အားပို့နိုင်ရန်
+- [ ] Automatic/admin notification များတွင် Golden Thai crown-and-2D icon အသုံးပြုရန်
+- [ ] In-app custom announcement composer/display ကိုဖယ်ရှားပြီး owner-admin စိတ်ကြိုက်စာကိုphone notification ဖြင့်ပို့ရန်
+- [x] Home Live 2D card တွင်ဘာသာစကားပြောင်းလျှင် font မရှုပ်အောင်ပြင်ပြီး Morning/Evening labels ကိုကျယ်ကျယ်ထားကာ SET/VAL market values ကိုညာဘက်ညှိပြရန်
+- [x] Home Live 2D card အတွင်းရှိ market panel ကိုပိုကျယ်စေပြီး Morning/Evening နှင့် SET/VAL spacing ကိုပိုရှင်းလင်းအောင်ပြင်ရန်
+- [x] Home Live 2D card အတွင်းဘောင်နှင့် morning/evening row မျဉ်းများကိုပိုထူ၍ထင်ရှားအောင်ပြင်ရန်
+- [x] Lucky Box owner-admin winner list ကိုပိုရှင်းလင်းစေပြီး eye control နှိပ်လျှင် winner ၏ပေါက်ထားသော Coins၊ reference ID၊ claim status နှင့်ဖွင့်ခဲ့သည့်အချိန်ကိုဖော်ပြရန်
+- [x] Lucky Box user ၏ကိုယ်ပိုင်ဆုပေါက်မှတ်တမ်းကို Coins၊ ဆု ID၊ claim status နှင့်date/time ဖြင့်ပြရန်
+- [x] Owner-admin ကwinner record ကိုအတည်ပြုဖျက်သည့်အခါ ထို record ကိုuser history မှလည်းအလိုအလျောက်ပျောက်စေရန်
+- [x] Lucky Box ကိုtemporary test mode ဖြင့်ဖွင့်ပြီး 100% win setting ၏ Coins budget သက်ရောက်မှုကိုအတည်ပြုရန်
+- [ ] Test ပြီးလျှင် Lucky Box win chance ကိုပုံမှန် admin setting သို့ပြန်ပြောင်းရန်
+- [x] Lucky Box temporary test mode တွင် time-slot ကိုမစောင့်ဘဲဖွင့်နိုင်ရန်နှင့်တစ်နေ့လျှင် 4 ကြိမ် limit ကိုဆက်ထိန်းရန်
+- [ ] Test ပြီးလျှင် Lucky Box ၏ပုံမှန် time-slot rule ကိုပြန်ဖွင့်ရန်
+- [x] Lucky Box ဆု ID ဖြင့် sole owner-admin ကwinner record ကိုရှာဖွေပြီး user reward screen ပုံစံအတိုင်းပြန်ကြည့်နိုင်ရန်
+- [x] User Lucky Box ဆုပေါက်မှတ်တမ်းတွင် Telegram @Aung007t ဆက်သွယ်ခလုတ်ကိုဆု ID နှင့်အတူပြရန်
+- [x] Lucky Box winner record တွင်admin-only paid status ကိုOn/Off ဖြင့်သိမ်းဆည်းရန်
+- [x] Admin winner list/detail တွင်ဆုကြေးပေးပြီး/မပြီး payment status နှင့်On/Off control ကိုပြရန်
+- [x] User Lucky Box ဆုပေါက်မှတ်တမ်းတွင်admin သတ်မှတ်ထားသောpayment status ကိုပြရန်
+- [x] Lucky Box ဆုပေါက်ချိန်တွင် confetti ကိုscreen မဖုံးအုပ်ဘဲအချိန်တိုတိုသာပြရန်
+- [x] Guest user အပါအဝင် Lucky Box ဖွင့်သူတိုင်းအတွက်မိမိဆုပေါက်မှတ်တမ်းကိုပြရန်
+- [x] Guest/history record များကိုowner-admin ဖျက်လျှင်ထိုဖွင့်သူ၏screen မှလည်းပျောက်စေရန်
+- [x] မဟာဘုတ်နေ့နာမ်ပြောင်းမေးသည့်အခါ AI response parse error မဖြစ်ဘဲအဖြေပြရန်
+- [x] မဟာဘုတ် AI response မမှန်လျှင်user ဖတ်လွယ်သောfallback error ကိုပြရန်
+- [ ] မဟာဘုတ်အသံဖွင့်နားထောင်ရာတွင်မြန်မာ/ထိုင်းစာသားနှင့်အသံဘာသာစကားကိုမှန်ကန်စွာရွေးချယ်ရန်
+- [ ] ဖုန်းတွင်မြန်မာ/ထိုင်း voice မရှိလျှင်user သိနိုင်သောfallback message ကိုပြရန်
+- [ ] မဟာဘုတ်အသံဖွင့်ခလုတ်တွင်ရွေးထားသောဘာသာစကားဖြင့်အဖြေကဏ္ဍအားလုံးကိုအစဉ်လိုက်တစ်ကြိမ်တည်းဖတ်ပြရန်
+- [ ] မဟာဘုတ်ဟောကိန်းကိုGemini AI ဖြင့်မြန်မာ/ထိုင်းဘာသာအဖြေမှန်ကန်စွာထုတ်ပေးရန်
+- [x] 3D ပြက္ခဒိန်ရှိသမိုင်းဂဏန်းများမှfrequency/recent-pattern analysis ကိုsecret မလိုဘဲတွက်ချက်ရန်
+- [x] 3D ပြက္ခဒိန်တွင်next empty draw အတွက်ခန့်မှန်းဂဏန်း box နှင့်မအာမခံကြောင်းသတိပေးချက်ကိုပြရန်
+- [x] 2026 3D sequence ရှိပြီးသားဂဏန်းများမပြောင်းဘဲနောက်ထွက်ဂဏန်းကိုသာappend လုပ်နိုင်ရန်
+- [x] 16 September 2026 3D target အတွက်1971–2026 data မှအထောက်အထားတူသောanalysis ၃ မျိုးကိုမျဉ်ခွဲပြရန်
+- [x] 3D ပြက္ခဒိန်အောက်ဆုံးတွင်အထောက်အထားအခြေခံprediction တစ်ခုသာပြရန်
+- [x] Superseded — Home ရှိလွတ်နေသောcard မှဖုန်းtouch ဖြင့်ပုံဆွဲနိုင်သောdrawing screen ကိုဖွင့်နိုင်ရန် မလုပ်တော့ဘဲ user clarification အရ3D historical analysis card ထည့်ရန်
+- [x] Superseded — Drawing screen တွင်အရောင်ရွေး၊eraser၊clear နှင့်save controls ထည့်ရန် မလုပ်တော့ရန်
+- [x] Superseded — User ရေးဆွဲထားသောပုံကိုdevice-local တွင်သိမ်း၍ပြန်ကြည့်/ဖျက်နိုင်ရန် မလုပ်တော့ရန်
+- [x] Home အောက်ဆုံးညာဘက်လွတ်နေသောcard တွင်16 September 2026 3D analysis summary ကိုပြရန်
+- [x] Home 3D analysis card ကိုနှိပ်လျှင်3D calendar အောက်ဆုံးရှိevidence ၃ မျိုးနှင့်prediction box သို့ဖွင့်ပေးရန်
+- [x] 3D analysis ၏target row/date ကိုအသေမထားဘဲလက်ရှိနောက်ထွက်draw အလိုက်အလိုအလျောက်တွက်ရန်
+- [x] Home 3D analysis card နှင့်calendar evidence panel တွင်dynamic target date ကိုအတူတူပြရန်
+- [x] 3D analysis next draw date ကိုThai Lottery 1 ရက်/16 ရက် schedule အတိုင်းလနှင့်နှစ်သာအလိုအလျောက်ပြောင်းရန်
+- [x] 3D analysis panel တွင်reference channel ပုံစံမှယူထားသောvisual evidence lines/table ၃ မျိုးကိုဖတ်လွယ်စွာပြရန်
+- [x] 3D history ကိုAI ကသီးခြားခွဲခြမ်းရေးသားပြီးတကယ်အသုံးပြုသောdata evidence ၃ မျိုးနှင့်prediction တစ်ခုကိုပြရန်
+- [x] Superseded — 3D ပြက္ခဒိန်မှanalysis panel၊AI query နှင့်Home analysis card ကိုတစ်ခါတည်းဖယ်ရှားရန် မလုပ်တော့ဘဲ user clarification အရCalendar panel/AI route ကိုသာဖယ်ရှားပြီးHome အောက်ဆုံးညာဘက်တွင်analysis box ကိုထားရန်
+- [x] 3D ပြက္ခဒိန်မှanalysis panel နှင့်Calendar-side AI query ကိုဖယ်ရှားပြီးမူရင်းဇယားပုံစံသို့ပြန်ထားရန်
+- [x] Home အောက်ဆုံးညာဘက်လွတ်နေသောcard တွင်သာနားလည်လွယ်သော3D analysis box ကိုတပ်ရန်
+- [x] Home-side 3D analysis တွင်16 September 2026 AI evidence အတွက်actual historical cells ကိုhighlight/circle/connecting line ဖြင့်မြင်သာစွာပြရန်
+- [x] Visual evidence cells နှင့်line path များကိုGolden Thai historical data/AI source မှသာတွက်ပြီးဂဏန်းမဖန်တီးရန်
+- [x] 16 September 2026 3D target အတွက်တကယ်ရှိသောhistorical cells ၃ ကွက်စီပါသောမတူညီသည့်visual evidence maps ၁၀ရွက်ကိုတွက်ရန်
+- [x] Evidence map တစ်ရွက်စီတွင်မတူညီသော3D prediction တစ်ခုနှင့်AI explanation ကိုပြရန်
+- [x] Home-side 3D analysis တွင်map ၁၀ရွက်ကိုတစ်ရွက်ချင်းကြည့်နိုင်သောcontrols ထည့်ရန်
+- [x] Home-side 3D analysis စာရွက်တစ်ရွက်စီတွင်Golden Thai သမိုင်းဇယားအပြည့်ကိုပြပြီးအထောက်အထားcell များပေါ်သို့တိုက်ရိုက်highlight/circle/အရောင်လိုင်းဖြင့်ထောက်ပြရန်
+- [x] Evidence line များကိုနမူနာကဲ့သို့မျက်နှာပြင်ကျယ်သောhistory grid အပေါ်တွင်မဖုံးကွယ်ဘဲတည်နေရာမှန်ကန်စွာဆက်သွယ်ပြရန်
+- [x] မူလ3D calendar ကိုtable-only အတိုင်းထားပြီးHome analysis page ၁၀ရွက်ကိုသာစာရွက်လိုက်reference-map ပုံစံသို့ပြောင်းရန်
+- [x] Gemini summary မရလျှင်လည်းGolden Thai verified history grid evidence sheets ၁၀ရွက်ကိုစောင့်မနေဘဲပြပြီးfactual fallback label သာပြရန်
+- [x] Home-linked စာရွက်လိုက်3D visual evidence analysis route နှင့်မူလsummary card wording ကိုဖယ်ရှားရန်
+- [x] Sole owner-admin က3D အထောက်အထားပုံတင်/ပြောင်း/ဖျက်နိုင်သောလုံခြုံသည့်image upload flow ထည့်ရန်
+- [x] Home အောက်ညာဘက်card မှတင်ထားသော3D အထောက်အထားပုံကိုuser များဖုန်းတွင်zoom ကြည့်နိုင်အောင်ပြရန်
