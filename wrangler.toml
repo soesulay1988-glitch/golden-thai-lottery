@@ -1,0 +1,6 @@
+name = "golden-thai-lottery-original"
+compatibility_date = "2026-09-10"
+
+[assets]
+directory = "./original_cloudflare_ready/dist/public"
+not_found_handling = "single-page-application"
