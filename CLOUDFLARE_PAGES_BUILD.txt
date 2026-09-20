@@ -5,4 +5,7 @@ Build command: npm run build:pages
 Build output directory: dist/public
 Node version: 22
 
-This package preserves the original React UI/features. The obsolete Manus debug collector is removed.
+This package preserves the original React UI/features. The obsolete Manus debug collector is removed.Rebuild trigger: 2026-09-20
+
+
+
